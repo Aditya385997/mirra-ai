@@ -1,0 +1,13 @@
+package com.mirra.mirra_ai.common.enums;
+
+public enum ErrorCode {
+    RESOURCE_NOT_FOUND,
+    BAD_REQUEST,
+    VALIDATION_ERROR,
+    UNAUTHORIZED,
+    FORBIDDEN,
+    CONFLICT,
+    BUSINESS_RULE_VIOLATION,
+    EXTERNAL_SERVICE_ERROR,
+    INTERNAL_SERVER_ERROR
+}
